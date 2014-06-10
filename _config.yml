@@ -10,4 +10,9 @@ markdown: kramdown
 permalink: pretty
 
 prose: 
-	rooturl: '_posts'	
+	rooturl: '_posts'
+	ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes	
